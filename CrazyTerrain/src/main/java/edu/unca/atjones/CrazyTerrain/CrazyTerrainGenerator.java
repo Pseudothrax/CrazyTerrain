@@ -30,7 +30,7 @@ public class CrazyTerrainGenerator extends ChunkGenerator {
 	}
 	
 	public Location getFixedSpawnLocation(World world, Random random) {
-		return new Location(world, 0, 0, 0);
+		return new Location(world, 0, 128, 0);
 	}
 	
 	void setBlock(byte[][] result, int x, int y, int z, byte blkid) {
